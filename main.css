@@ -1,27 +1,93 @@
-body {background-color:orange;
-       font-family:cursive;
-
+body {
+    max-width: 80%;
+    margin: auto; /* Changed 'center' to 'auto' for centering */
+    font-family: 'Castellar', serif; 
+    background-color: white; 
+    color: darkgreen; 
 }
 
-header {background-color:black;
-        }
-
-h1{color:orangered;
+header {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-nav > ul {
-    line-height: 2;
-      list-style-type: none;
-      padding-left:5px;
-    
+h1 {
+    margin: 0;
+    color: black;
 }
 
-section {background-color:orange;
-        width: 75%;
-        font-size: 1.5em;
-    
+nav {
+    background-color: peachpuff; 
+    margin-bottom: 20px;
+    text-align: left;
 }
 
-footer {background-color:orangered;
-    
- }
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: green; 
+    text-decoration: none; /* Changed 'line' to 'none' */
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    background-color: lightgray; 
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-left {
+    flex: 3; 
+    padding: 20px;
+}
+
+aside {
+    flex: 1; 
+    padding: 20px;
+    background-color: peachpuff; 
+}
+
+footer {
+    text-align: left;
+    margin-top: 20px;
+    background-color: peachpuff;
+    color: green;
+    padding: 10px 0;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 15px;
+}
+
+.photo-grid figure {
+    margin: 0; 
+}
+
+.photo-grid img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 5px; 
+}
+
+figcaption {
+    text-align: center; 
+    font-size: 14px; 
+    color: white; 
+    margin-top: 5px; 
+}
+
+
+

@@ -1,6 +1,6 @@
 body {
     max-width: 80%;
-    margin: auto; /* Changed 'center' to 'auto' for centering */
+    margin: auto; 
     font-family: 'Castellar', serif; 
     background-color: white; 
     color: darkgreen; 
@@ -34,7 +34,7 @@ nav ul li {
 
 nav ul li a {
     color: green; 
-    text-decoration: none; /* Changed 'line' to 'none' */
+    text-decoration: none; 
     padding: 10px 20px;
 }
 
